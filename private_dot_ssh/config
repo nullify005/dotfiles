@@ -1,0 +1,8 @@
+Host github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/nullify005.id_rsa
+
+Host gitlab.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/abc_gitlab.id_rsa
+
