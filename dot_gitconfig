@@ -2,6 +2,8 @@
   name = Lee Webb
   email = nullify005@gmail.com
 [push]
-	autoSetupRemote = true
+  autoSetupRemote = true
 [pull]
-	rebase = true
+  rebase = true
+[init]
+  defaultBranch = main

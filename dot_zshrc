@@ -111,3 +111,6 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # -- snaps --
 export PATH="${PATH}:/snap/bin"
+
+# -- saml2aws --
+eval "$(saml2aws --completion-script-zsh)"
