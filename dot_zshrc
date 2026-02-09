@@ -107,10 +107,13 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=vim
 
 # -- asdf --
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:${PATH}"
 
 # -- snaps --
-export PATH="${PATH}:/snap/bin"
+export PATH="/snap/bin:${PATH}"
 
 # -- saml2aws --
 eval "$(saml2aws --completion-script-zsh)"
+
+# -- claude and .local/bin --
+export PATH="${HOME}/.local/bin:${PATH}"
